@@ -1,0 +1,317 @@
+.view-container{
+
+    height: 100vh;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+   
+     background-image: linear-gradient(rgb(236, 16, 236),rgb(173, 62, 234),rgb(119, 13, 249));
+     
+   }
+   
+ 
+ 
+   #sec1{
+        
+     display: flex;
+     flex-direction: column;
+     /* border: 2px solid white; */
+     /* background-image: url('./image4.jpg'); */
+     /* background-image:linear-gradient(to top right,rgb(68, 30, 238),rgb(97, 36, 238),rgb(134, 74, 236),rgb(172, 18, 229),rgb(213, 16, 227)); */
+     /* background-repeat: no-repeat; */
+     
+ }
+
+ table{
+    border:4px solid rgb(187, 49, 49);
+   text-align: center;
+   vertical-align: middle;
+ 
+  }
+     
+ td
+ {
+   border: 6px solid black;
+   width: 100px;
+ 
+ }
+   #skill{
+         
+         display:flex;justify-content: space-evenly;
+           /* border:3px Solid black; */
+     }
+    
+     #main{
+         
+         height: 80vh;
+         width: 100vw;
+         flex-direction: column;
+         color: white;       
+         border-radius: 20px;
+         margin-top: 100px;
+         margin-bottom: 100px;
+         border: 2px Solid white;
+         background-color: black;
+         
+     }
+     .id-yellow{
+       background-color: rgb(242, 255, 0);
+       height: 300px;
+       width: 300px;
+       border: 1px solid black;
+ 
+     }
+     /* Create a linear gradient background */
+.login-bg {
+  background: linear-gradient(135deg, #74ebd5, #9face6);  /* Light blue to soft purple gradient */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the card */
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the form elements */
+.form-control {
+  border-radius: 8px;
+  height: 45px;
+  font-size: 14px;
+}
+
+/* Style for the login button */
+.btn-primary {
+  background-color: #5c67d6;
+  border: none;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #4b54b1;
+}
+
+/* Link styling for forgot password */
+.text-decoration-none {
+  color: #5c67d6;
+}
+
+.text-decoration-none:hover {
+  text-decoration: underline;
+}
+.nav-link:hover{
+  background-color: rgb(79, 79, 1);
+  border-radius: 20px;
+  /* color: #5c67d6; */
+  
+}
+.bg-success{
+  margin-left: -75px;
+  margin-top: -20px;
+}
+.nav-blac{
+  margin-left: -60px;
+  margin-bottom: -10px;
+  /* margin-top: -10px; */
+  
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(240, 178, 178);
+}
+
+
+/* Background fade-in effect */
+.login-bg {
+  background-image: linear-gradient(to left, #6a11cb, #4386f9);
+  background-size: cover;
+  transition: background-color 1.5s ease-in-out;
+}
+
+/* Fade-in animation for entire login section */
+.fade-in {
+  animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Slide-in animation for the form */
+.form-slide-in {
+  animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateY(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+/* Zoom-in effect and color change for the h3 title */
+.heading-animate {
+  animation: zoomIn 1.5s ease-in-out, colorChange 2s infinite;
+  font-weight: bold;
+}
+
+@keyframes zoomIn {
+  from {
+      transform: scale(0);
+      opacity: 0;
+  }
+  to {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+@keyframes colorChange {
+  0% { color: #636363; }
+  50% { color: #4e73df; }
+  100% { color: #655800; }
+}
+
+/* Hover effect on the button */
+.btn-animate {
+  transition: all 0.3s ease;
+}
+
+.btn-animate:hover {
+  background-color: #fffb00;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-6px);
+  color: blue;
+  font-size: 15px;
+}
+
+
+/* Animation for fade-in effect -   list emp page*/
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.fade-in-card {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Button hover effect */
+.btn:hover {
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+
+/* Sidebar link hover effect */
+.hover-link {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hover-link:hover {
+  background-color: #1effb4;
+  color: #000000;
+  border-radius: 5px;
+}
+
+/* Animation for the content area - sidebar admin*/
+@keyframes slideIn {
+  from {
+      opacity: 0;
+      transform: translateX(30px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.animate-content {
+  animation: slideIn 0.8s ease-in-out;
+}
+
+/* Sidebar subtle hover and active styles */
+.sidebar {
+  transition: background-color 0.3s ease;
+}
+
+.sidebar:hover {
+  background-color: #218838;
+}
+
+/* Add smooth scrolling to the sidebar links */
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+
+/* Sidebar hover effect - sidebar - view employee*/
+.hover-link {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hover-link:hover {
+  background-color: #17a2b8;
+  color: #fff;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+/* Sidebar smooth background transition */
+.sidebar {
+  transition: background-color 0.5s ease;
+}
+
+.sidebar:hover {
+  background-color: #343a40;
+}
+
+/* Animation for the content area */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.animate-content {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.logout{
+  margin-left: 980px;
+}
